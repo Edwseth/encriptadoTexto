@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <div class="titulo">
+                <img src="./img/Logo.png" alt="logo de alura">  
+                <h1>Encriptador de texto</h1> 
+            </div>
+              
+        </header>
+    </div>
+    
+    <main>
+        <div class="entrada">
+            <div class="ingreso">
+                <textarea style="background-color: var(-color-secundario)" class="textarea1" id="inputText" placeholder="Ingresa el texto aquí..." oninput="filtrarEntrada()"></textarea>
+            </div>
+            <div>
+                <div class="alerta">
+                    <img src="./img/alerta.png" width="26" height="26" alt="alerta">
+                    <p>Solo letras minúsculas y sin acento</p>
+                </div>
+                <div class="botones">
+                    <button onclick="encriptarTexto()" id="activarEncriptado" disabled>Encriptar</button>
+                    <button onclick="desencriptarTexto()" id="activarDesencriptado" disabled>Desencriptar</button>
+                    <button onclick="limpiarTodo()" id="limpiarTodo" class="borrar" disabled>Limpiar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="salida">
+            <p id="outputText" class="salida__texto" placeholder="Texto encriptado/desencriptado aparecerá aquí..."></p>
+            <div class="salida__mensajes" id="myDIV">
+                <img src="./img/candado3.jpg" width="320" height="320" alt="candado3" class="candado3">
+                <h1>Ningún mensaje fue encontrado</h1>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="boton">
+                <button onclick="copiarTexto()" class="copiar" id="limpiar" style="display: none;">Copiar</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy;2024 Edwseth. Todos los derechos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
