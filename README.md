@@ -3,8 +3,8 @@
     Encriptador de Texto - CHALLENGE # 1
     <br />
     <br />
-    <a href="https://docusaurus.io">
-      <img src="https://docusaurus.io/img/slash-introducing.svg" alt="Docusaurus">
+    <a href="https://github.com">
+      <img src="https://github.com/Edwseth/encriptadoTexto/blob/main/img/candado3.jpg" width="250" height="250" alt="candado">
     </a>
   </h1>
 </div>
