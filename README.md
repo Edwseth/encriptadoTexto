@@ -9,8 +9,39 @@
   </h1>
 </div>
 
-## Introducción
-Este proyecto hace parte de la formación para principiante en programación G7 ONE, en donde nos dieron unos requisitos mínimos que debemos cumplir y un tiempo máximo de 4 semanas para desarrollar el proyecto.
+## Descripción
+
+Este proyecto es un encriptador y desencriptador de texto simple. Permite al usuario ingresar texto, encriptarlo según reglas específicas y desencriptarlo de vuelta. También incluye la funcionalidad para copiar el texto encriptado o desencriptado al portapapeles.
+
+## Reglas de Encriptación
+
+- La letra 'a' se reemplaza por "ai"
+- La letra 'e' se reemplaza por "enter"
+- La letra 'i' se reemplaza por "imes"
+- La letra 'o' se reemplaza por "ober"
+- La letra 'u' se reemplaza por "ufat"
+
+## Características
+
+- Encriptar y desencriptar texto basado en reglas específicas.
+- Filtrar la entrada para permitir solo letras minúsculas y espacios.
+- Copiar el texto encriptado o desencriptado al portapapeles.
+- Desactivar el botón de copiar cuando no hay texto en la salida.
+
+## Capturas de Pantalla
+
+![image](https://github.com/user-attachments/assets/a2d94bd0-b310-49e0-b382-98bd964d4417)
+
+
+## Uso
+
+1. Clona este repositorio.
+    ```bash
+    git clone https://github.com/Edwseth/encriptadoTexto
+    ```
+2. Abre el archivo `index.html` en tu navegador.
+
+## Estructura del Proyecto
 
 Ahora explicaré cada uno de los elementos que tiene mi proyecto;
 
